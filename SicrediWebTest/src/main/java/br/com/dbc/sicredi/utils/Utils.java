@@ -39,7 +39,7 @@ public class Utils {
 		try{
 	        Utils.sleep(500);
 	        BufferedImage image = new Robot().createScreenCapture(new Rectangle(Toolkit.getDefaultToolkit().getScreenSize()));
-	        ImageIO.write(image, "jpg", new File("C:\\TestCasesPictures\\" + Constants.TESTECASE_TITLE + "_" + dateFormat.format(date) + ".jpg"));
+	        ImageIO.write(image, "jpg", new File("C:\\Evidencia\\" + Constants.TESTECASE_TITLE + "_" + dateFormat.format(date) + ".jpg"));
 	    }
 	    catch( Exception e ) {
 	        e.printStackTrace();
